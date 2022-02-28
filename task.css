@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(13, 110, 89);
+ }
+  
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .playground-heading {
+    color: rgba(12, 212, 226, 0.801);
+    font-family: 'Supermercado One', cursive;
+    font-size: 2.5rem;
+    position: relative; /*top-right-bottom-left*/
+    animation: header;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+ }
+  
+ @keyframes header {
+    0% {top: -50px}
+    100% {top: 3px}
+ }
+ .img {
+    text-align: center;
+ }
+  
+ .ingredients {
+    color: rgb(170, 156, 27);
+    border: 3px solid burlywood;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative; /*top-right-bottom-left*/
+    animation: kast2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+ }
+  
+ @keyframes kast2 {
+    0% {left: -1000px}
+    85% {left: 50px}
+    100% {left: 0px}
+ }
+
+  
+ .ingredients-table {
+    margin: 0 auto;
+ }
+  
+ .juhendid {
+    color: rgb(178, 156, 34);
+    border: 3px solid burlywood;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative; /*top-right-bottom-left*/
+    animation: kast;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+ }
+  
+ @keyframes kast {
+    0% {right: -1000px}
+    85% {right: 50px}
+    100% {right: 0px}
+ }
+ 
+ .juhendid ol {
+ margin: 0 auto;
+ width: 75%;
+ }
+  
+ .footer {
+ color: cadetblue;
+ font-family: 'EB Garamond', serif;
+ font-size: 1rem;
+ text-align: center;
+ }
+  
+ .heading {
+    text-align: center;
+ }
